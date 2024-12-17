@@ -61,14 +61,6 @@
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "graphql"
-    ],
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
@@ -138,7 +130,7 @@
     "editor.scrollbar.vertical": "hidden",
     "explorer.sortOrder": "foldersNestsFiles",
     "explorer.fileNesting.patterns": {
-      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+      "package.json": "prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
       "tailwind.config.*": "tailwind.config*, postcss.config*",
       ".env.local": ".env*",
       ".env": ".env*"
